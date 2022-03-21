@@ -1,3 +1,11 @@
+@media (max-width: 375px){
+.questionComponents{
+    align-items: center;
+}
+.questionFlow{
+    width: 100% ;
+}
+}
 .questionComponents{
     display: flex;
     justify-content: center;
@@ -14,11 +22,24 @@
         span{
             display: flex;
             justify-content: space-between;
+            font-weight: 700;
             cursor: pointer;
-            img{
-                width: auto;
-                height: 60%;
+
+            font-weight: 500;
+            &:hover{
+                color: orangered;
             }
+        }
+        img{
+            width: auto;
+            height: 60%;
+            transform: rotate(180deg)
+        }
+        p{
+            display: none;
+            font-weight: 500;
+            font-size: 0.8em;
+            color: #63636dc0;
         }
     }
 }

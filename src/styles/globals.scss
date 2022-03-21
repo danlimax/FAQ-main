@@ -8,3 +8,16 @@
   --purple: #8874eb;
   --white: #FFFFFF;
 }
+
+body, html{
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 375px){
+  span{
+    font-size: 0.9em;
+  }
+  p{
+    font-size: 0.8em;
+  }
+}

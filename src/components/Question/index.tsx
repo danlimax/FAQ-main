@@ -7,28 +7,28 @@ export function Question(){
         <h1>FAQ</h1>
 
         <div className={styles.questionFlow}>
-        <span>Qual é a pergunta?<img src="icon-arrow-down.svg" alt="Seta de interação." /></span>
-        {/* <p>
+        <span>Qual é a pergunta do conteúdo agora?<img src="icon-arrow-down.svg" alt="Seta de interação." /></span>
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p> */}
+        </p>
         </div>
         <div className={styles.questionFlow}>
         <span>Qual é a pergunta?<img src="icon-arrow-down.svg" alt="Seta de interação." /></span>
-        {/* <p>
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p> */}
+        </p>
         </div>
         <div className={styles.questionFlow}>
         <span>Qual é a pergunta?<img src="icon-arrow-down.svg" alt="Seta de interação." /></span>
-        {/* <p>
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p> */}
+        </p>
         </div>
         <div className={styles.questionFlow}>
         <span>Qual é a pergunta?<img src="icon-arrow-down.svg" alt="Seta de interação." /></span>
-        {/* <p>
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p> */}
+        </p>
         </div>
         </div>
         </>
